@@ -1,0 +1,8 @@
+a6: main.o
+	gcc -D_FILE_OFFSET_BITS=64 -g -o a6 main.c
+
+main.o : main.c
+	gcc -c main.c
+
+clean:
+	rm -rf *~ *.o a6

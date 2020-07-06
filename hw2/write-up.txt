@@ -1,0 +1,18 @@
+//Scott Giorlando
+//Assignment 2 - write-up
+
+To make my programs you can use make all, make sort for the sort specifically or make grep for the grep
+To run my programs use ./assign2_sort cs308a2_sort_data, ./assign2_grep cs308a2_grep_data_1
+
+NOTE: We discussed in class that we need to mention why cs308a2_grep_data_2 won't work with our grep program.
+The simple answer is that the data in the file is too large for the grep command to handle.  That is because
+grep does a constant storing on the i pipe and o pipe without sorting the data, where the sort does it as it
+goes along the program.  The grep command eventually stores to the maximum point on the pipes and locks in place
+because it is looking for the space to clear from the pipes to continue.
+
+This assignment should be working to it's specification without any errors that I am aware of.  When it came to
+doing this assignment I used some of my old code from Assignment 1 and some of the UNIX help files that are on
+the cs308 website.  In the assignment itself we had options for how we did this specifically, we could write the
+zip codes to stdout or write them to a file and sort it after re using that file.  I did the file path because I
+found it simpler to sort from a file that had a copy of all the zip codes to search from.  The only issue I really
+ran into was a spelling error on execlp, I accidentally typed excelp and overlooked that for a while.

@@ -1,0 +1,28 @@
+//Scott Giorlando
+//Assignment 2 Output
+
+------------
+Sort Output
+------------
+
+Area code 103 had 87 different names
+Area code 215 had 107 different names
+Area code 220 had 114 different names
+Area code 316 had 96 different names
+Area code 403 had 100 different names
+Area code 508 had 101 different names
+Area code 579 had 103 different names
+Area code 604 had 86 different names
+Area code 617 had 88 different names
+Area code 783 had 77 different names
+
+959 lines were processed in this report.
+
+---------------------
+Grep Output File # 1
+---------------------
+
+28 lines were matched with grep.
+
+
+The grep output file number 2 didn't have any output because it didn't work as intended.

@@ -1,0 +1,19 @@
+Name: Scott Giorlando
+Email: scott_giorlando@student.uml.edu
+
+Assignment 1 Write Up:
+
+To compile this do "make all"
+
+NOTE: I had to recompile Professor Moloney's program because I was getting
+execl() permission errors from the one in the cs308 directory, so I added that
+to my Makefile under the command "make all".
+
+This assignment should work fully as expected.  I'm pretty sure I did everything
+that was required from this assignment, and if I did not, then I am unaware of
+what I am missing, and I apologize for that.  When it came to doing this assignment
+I simply used my old Architecture assignment since it had the forking and pipe
+already done.  I then used the notes in the assignment 1 help file and Professor
+Moloney's Assign1.c file.  I did run into a few issues when doing this assignment.
+The main problem was that I neede to re-compile the professor's program because
+my code would give an execl() error and give some weird message about permissions.

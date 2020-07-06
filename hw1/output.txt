@@ -1,0 +1,46 @@
+This is the Parent process report:
+
+PARENT PROG:  Process ID is:		      14548
+PARENT PROC:  Process parent ID is:		14426
+PARENT PROC:  Real UID is:		        15387
+PARENT PROC:  Real GID is:		        2018
+PARENT PROC:  Effective UID is:		    15387
+PARENT PROC:  Effective GID is:		    2018
+PARENT PROC:  Process priority is:		0
+
+PARENT PROC: will now create child, write pipe,
+          and do a normal termination
+
+This is the Child process report:
+
+CHILD PROC:  Process ID is:		        14549
+CHILD PROC:  Process parent ID is:		14548
+CHILD PROC:  Real UID is:		          15387
+CHILD PROC:  Real GID is:		          2018
+CHILD PROC:  Effective UID is:		    15387
+CHILD PROC:  Effective GID is:		    2018
+CHILD PROC:  Process priority is:		  0
+
+CHILD PROCESS: Awake in handler.
+
+This is the Prof process report:
+
+PROF PROG:  Process ID is:		        14549
+PROF PROG:  Process parent ID is:	    14548
+PROF PROG:  Real UID is:		          15387
+PROF PROG:  Real GID is:		          2018
+PROF PROG:  Effective UID is:		      15387
+PROF PROG:  Effective GID is:		      2018
+PROF PROG:  Process priority is:	    5
+
+PROF PROG: going into and endless loop, use
+ kill 14549   to kill me now
+
+ kill 14549
+
+
+PROF PROG: Awake in handler - You Got Me With signal
+  Number 15 after spinning for more
+  than 2 Billion loop iterations, goodbye
+
+Child 14549 terminated with: exit code 1 and no core dump generated.
